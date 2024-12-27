@@ -13,6 +13,7 @@ export type Pricing = {
 export type Brand =
   | 'test:brand'
   | 'captcha-deterrent'
+  | 'formd'
   | 'amd'
   | 'asrock'
   | 'asus'
@@ -40,6 +41,8 @@ export type Brand =
 
 export type Series =
   | 'test:series'
+  | 'titanium-black'
+  | 'titanium-titanium'
   | 'captcha-deterrent'
   | '3050'
   | '3060'
@@ -75,6 +78,7 @@ export type Series =
 
 export type Model =
   | 'test:model'
+  | 't1'
   | 'captcha-deterrent'
   | '5600x'
   | '5800x'

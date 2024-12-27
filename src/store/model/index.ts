@@ -1,4 +1,5 @@
 import {config, defaultStoreData} from '../../config';
+import {Formdt1} from './formdt1';
 import {AComPC} from './acompc';
 import {Ldlc} from './ldlc';
 import {LdlcEs} from './ldlc-es';
@@ -173,6 +174,7 @@ import {XtremMedia} from './xtremmedia';
 import {MicrosoftCA} from './microsoft-ca';
 
 export const storeList = new Map([
+  [Formdt1.name, Formdt1],
   [AComPC.name, AComPC],
   [Adorama.name, Adorama],
   [Akinformatica.name, Akinformatica],
